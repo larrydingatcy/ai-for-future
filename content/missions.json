@@ -1,0 +1,218 @@
+[
+  {
+    "id": "plant-water",
+    "icon": "🪴",
+    "title_zh": "植物喝水提醒",
+    "title_en": "Plant Water Reminder",
+    "brief_zh": "阳台上的小植物口渴了也不会说话。请你设计一个浇水提醒，让家里人记得按时给它喝水！",
+    "brief_en": "The little plants on the balcony can't say when they are thirsty. Can you make a reminder so everyone remembers to water them?",
+    "difficulty": 1,
+    "unlock_requires": [],
+    "understand_check": [
+      { "zh": "植物需要喝水", "en": "plants need water" },
+      { "zh": "做一个提醒", "en": "make a reminder" },
+      { "zh": "让家人记得浇水", "en": "help the family remember" }
+    ],
+    "info_hints": [
+      { "zh": "摸一摸土，干的还是湿的？", "en": "Touch the soil. Is it dry or wet?" },
+      { "zh": "问问家人：多久浇一次水？", "en": "Ask your family: how often do we water it?" },
+      { "zh": "看看叶子，有没有垂下来？", "en": "Look at the leaves. Are they drooping?" }
+    ],
+    "plan_rubric": [
+      { "zh": "提醒能让人看见或听见", "en": "people can see or hear the reminder" },
+      { "zh": "说清楚什么时候浇水", "en": "it says when to water" },
+      { "zh": "放在容易看到的地方", "en": "it goes somewhere easy to notice" }
+    ],
+    "result_rubric": [
+      { "zh": "做出了一个真的提醒", "en": "you made a real reminder" },
+      { "zh": "家人能看懂", "en": "your family can understand it" },
+      { "zh": "植物真的被浇水了", "en": "the plant really got water" }
+    ],
+    "reflection_prompts": [
+      { "zh": "什么做得好？", "en": "What went well?" },
+      { "zh": "什么没成功？", "en": "What didn't work?" },
+      { "zh": "下次怎么改？", "en": "What will you change next time?" }
+    ],
+    "est_minutes": 20
+  },
+  {
+    "id": "trash-labels",
+    "icon": "♻️",
+    "title_zh": "垃圾分类小标签",
+    "title_en": "Sorting Trash Labels",
+    "brief_zh": "垃圾也要回到自己的家！请你给家里的垃圾桶做分类标签，让大家一看就知道什么垃圾放哪里。",
+    "brief_en": "Trash needs to go to the right home too! Make labels for the bins at home so everyone knows where each kind of trash goes.",
+    "difficulty": 1,
+    "unlock_requires": ["plant-water"],
+    "understand_check": [
+      { "zh": "垃圾要分类", "en": "trash gets sorted" },
+      { "zh": "做标签", "en": "make labels" },
+      { "zh": "贴在垃圾桶上", "en": "put them on the bins" }
+    ],
+    "info_hints": [
+      { "zh": "家里有几个垃圾桶？", "en": "How many bins do we have at home?" },
+      { "zh": "问问大人：果皮放哪里？瓶子放哪里？", "en": "Ask a grown-up: where do fruit peels go? Bottles?" },
+      { "zh": "拍一拍小区里的分类垃圾桶", "en": "Take a photo of the sorting bins outside" }
+    ],
+    "plan_rubric": [
+      { "zh": "每个垃圾桶都有标签", "en": "every bin gets a label" },
+      { "zh": "用图画让不识字的人也看懂", "en": "pictures so anyone can understand" },
+      { "zh": "颜色或形状能分清", "en": "colors or shapes tell them apart" }
+    ],
+    "result_rubric": [
+      { "zh": "标签贴好了", "en": "the labels are up" },
+      { "zh": "一看就懂放什么", "en": "easy to see what goes where" },
+      { "zh": "家人试着用了", "en": "your family tried using them" }
+    ],
+    "reflection_prompts": [
+      { "zh": "什么做得好？", "en": "What went well?" },
+      { "zh": "什么没成功？", "en": "What didn't work?" },
+      { "zh": "下次怎么改？", "en": "What will you change next time?" }
+    ],
+    "est_minutes": 25
+  },
+  {
+    "id": "family-shop",
+    "icon": "🏪",
+    "title_zh": "家庭小卖部",
+    "title_en": "Family Little Shop",
+    "brief_zh": "今天你是小店长！开一天家庭小卖部：选好要卖的东西，给它们定价钱，再画一张海报请家人来买。",
+    "brief_en": "Today you are the shop boss! Run a family shop for a day: pick things to sell, give them prices, and draw a poster to invite your family.",
+    "difficulty": 2,
+    "unlock_requires": ["trash-labels"],
+    "understand_check": [
+      { "zh": "开一个小卖部", "en": "open a little shop" },
+      { "zh": "给东西定价钱", "en": "give things prices" },
+      { "zh": "画海报", "en": "draw a poster" }
+    ],
+    "info_hints": [
+      { "zh": "家里有什么可以\"卖\"的玩具或零食？", "en": "What toys or snacks could you \"sell\"?" },
+      { "zh": "问问家人：超市里一个苹果多少钱？", "en": "Ask your family: how much is an apple at the store?" },
+      { "zh": "看看商店的海报上都有什么", "en": "Look at a shop poster. What is on it?" }
+    ],
+    "plan_rubric": [
+      { "zh": "有要卖的东西", "en": "there are things to sell" },
+      { "zh": "每样东西有价钱", "en": "each thing has a price" },
+      { "zh": "海报能吸引人", "en": "the poster catches people's eyes" }
+    ],
+    "result_rubric": [
+      { "zh": "小卖部开张了", "en": "the shop opened" },
+      { "zh": "有价钱牌和海报", "en": "there are price tags and a poster" },
+      { "zh": "家人来买东西了", "en": "your family came to buy something" }
+    ],
+    "reflection_prompts": [
+      { "zh": "什么做得好？", "en": "What went well?" },
+      { "zh": "什么没成功？", "en": "What didn't work?" },
+      { "zh": "下次怎么改？", "en": "What will you change next time?" }
+    ],
+    "est_minutes": 40
+  },
+  {
+    "id": "breakfast-menu",
+    "icon": "🍳",
+    "title_zh": "家庭早餐菜单",
+    "title_en": "Family Breakfast Menu",
+    "brief_zh": "早上吃什么呢？请你为家人设计一份早餐菜单，想一想每个人喜欢吃什么，还要吃得健康哦！",
+    "brief_en": "What's for breakfast? Design a breakfast menu for your family. Think about what everyone likes, and make it healthy too!",
+    "difficulty": 2,
+    "unlock_requires": ["plant-water"],
+    "understand_check": [
+      { "zh": "做早餐菜单", "en": "make a breakfast menu" },
+      { "zh": "给家人", "en": "for the family" },
+      { "zh": "大家喜欢又健康", "en": "liked by everyone and healthy" }
+    ],
+    "info_hints": [
+      { "zh": "问问每个家人最爱吃什么早餐", "en": "Ask each person their favorite breakfast" },
+      { "zh": "看看冰箱里有什么", "en": "Look inside the fridge. What is there?" },
+      { "zh": "问问小星：什么食物让我们有力气？", "en": "Ask Xiaoxing: which foods give us energy?" }
+    ],
+    "plan_rubric": [
+      { "zh": "想到了每个家人", "en": "thinks about each family member" },
+      { "zh": "有吃的也有喝的", "en": "has food and a drink" },
+      { "zh": "有水果或蔬菜", "en": "includes fruit or vegetables" }
+    ],
+    "result_rubric": [
+      { "zh": "菜单做好了", "en": "the menu is made" },
+      { "zh": "家人看懂了菜单", "en": "the family understands the menu" },
+      { "zh": "真的吃了一顿菜单上的早餐", "en": "you really ate a breakfast from it" }
+    ],
+    "reflection_prompts": [
+      { "zh": "什么做得好？", "en": "What went well?" },
+      { "zh": "什么没成功？", "en": "What didn't work?" },
+      { "zh": "下次怎么改？", "en": "What will you change next time?" }
+    ],
+    "est_minutes": 30
+  },
+  {
+    "id": "paper-bridge",
+    "icon": "🌉",
+    "title_zh": "纸桥大力士",
+    "title_en": "Super Strong Paper Bridge",
+    "brief_zh": "一张薄薄的纸，能托住一本书吗？请你用纸搭一座桥，架在两堆书中间，让桥上能放一本书不塌！",
+    "brief_en": "Can thin paper hold up a book? Build a paper bridge between two piles of books, strong enough to hold one book without falling!",
+    "difficulty": 3,
+    "unlock_requires": ["family-shop", "trip-packing"],
+    "understand_check": [
+      { "zh": "用纸搭桥", "en": "build a bridge from paper" },
+      { "zh": "架在两边中间", "en": "it spans a gap" },
+      { "zh": "能托住一本书", "en": "it holds a book" }
+    ],
+    "info_hints": [
+      { "zh": "试一试：平平的纸和折过的纸，哪个更结实？", "en": "Try it: is flat paper or folded paper stronger?" },
+      { "zh": "看看真的桥，下面是什么样子？", "en": "Look at a real bridge. What is underneath?" },
+      { "zh": "问问家人：怎样让纸变硬？", "en": "Ask your family: how can paper get stiffer?" }
+    ],
+    "plan_rubric": [
+      { "zh": "想了让纸变结实的办法", "en": "has an idea to make paper stronger" },
+      { "zh": "知道桥放在哪里", "en": "knows where the bridge sits" },
+      { "zh": "想好怎么测试", "en": "plans how to test it" }
+    ],
+    "result_rubric": [
+      { "zh": "搭出了一座纸桥", "en": "a paper bridge was built" },
+      { "zh": "试着放了书", "en": "you tested it with a book" },
+      { "zh": "桥撑住了，或者找到了原因", "en": "it held, or you found out why not" }
+    ],
+    "reflection_prompts": [
+      { "zh": "什么做得好？", "en": "What went well?" },
+      { "zh": "什么没成功？", "en": "What didn't work?" },
+      { "zh": "下次怎么改？", "en": "What will you change next time?" }
+    ],
+    "est_minutes": 35
+  },
+  {
+    "id": "trip-packing",
+    "icon": "🎒",
+    "title_zh": "出游打包清单",
+    "title_en": "Family Trip Packing",
+    "brief_zh": "我们要去郊游啦！请你帮全家规划要带的东西，想一想天气、吃的、玩的，做一张打包清单。",
+    "brief_en": "We're going on a family trip! Plan what everyone should bring. Think about the weather, food and fun, then make a packing list.",
+    "difficulty": 2,
+    "unlock_requires": ["breakfast-menu"],
+    "understand_check": [
+      { "zh": "全家要出去玩", "en": "the family goes on a trip" },
+      { "zh": "想要带什么", "en": "think what to bring" },
+      { "zh": "做一张清单", "en": "make a list" }
+    ],
+    "info_hints": [
+      { "zh": "问问家人：我们去哪里？要去多久？", "en": "Ask your family: where are we going? For how long?" },
+      { "zh": "看看窗外，今天天气怎么样？", "en": "Look outside. What is the weather like?" },
+      { "zh": "问问小星：出门玩可能需要什么？", "en": "Ask Xiaoxing: what might we need on a trip?" }
+    ],
+    "plan_rubric": [
+      { "zh": "想到了天气", "en": "thinks about the weather" },
+      { "zh": "有吃的和喝的", "en": "has food and water" },
+      { "zh": "想到了每个家人", "en": "thinks about everyone in the family" }
+    ],
+    "result_rubric": [
+      { "zh": "清单做好了", "en": "the list is made" },
+      { "zh": "照着清单装好了包", "en": "the bag was packed using the list" },
+      { "zh": "没有忘记重要的东西", "en": "nothing important was forgotten" }
+    ],
+    "reflection_prompts": [
+      { "zh": "什么做得好？", "en": "What went well?" },
+      { "zh": "什么没成功？", "en": "What didn't work?" },
+      { "zh": "下次怎么改？", "en": "What will you change next time?" }
+    ],
+    "est_minutes": 25
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "L1", "icon": "🌱",
+    "title_zh": "第一个问题", "title_en": "First Question",
+    "goal_zh": "按住话筒，问小星一个你想知道的问题吧！", "goal_en": "Hold the mic and ask Xiaoxing anything you wonder about!",
+    "rule": { "type": "first_question" }, "reward_stars": 1
+  },
+  {
+    "id": "L2", "icon": "🌿",
+    "title_zh": "为什么小达人", "title_en": "Why Explorer",
+    "goal_zh": "试试问一个\"为什么\"的问题！", "goal_en": "Try asking a \"why\" question!",
+    "rule": { "type": "ask_type", "qtype": "why" }, "reward_stars": 2
+  },
+  {
+    "id": "L3", "icon": "🌳",
+    "title_zh": "追问三连", "title_en": "Keep Asking",
+    "goal_zh": "听完回答再接着问，连续追问三次！", "goal_en": "After an answer, ask more! Ask three follow-ups in a row!",
+    "rule": { "type": "follow_up_streak", "count": 3 }, "reward_stars": 2
+  },
+  {
+    "id": "L4", "icon": "🍄",
+    "title_zh": "如果会怎样", "title_en": "What If",
+    "goal_zh": "问一个\"如果……会怎样\"的问题！", "goal_en": "Ask a \"what if…\" question!",
+    "rule": { "type": "ask_type", "qtype": "whatif" }, "reward_stars": 2
+  },
+  {
+    "id": "L5", "icon": "🦉",
+    "title_zh": "真的吗侦探", "title_en": "Really? Detective",
+    "goal_zh": "听完小星的回答，点\"真的吗\"，说说你为什么怀疑！", "goal_en": "After an answer, tap \"Really?\" and say why you're not sure!",
+    "rule": { "type": "challenge_with_reason" }, "reward_stars": 3
+  },
+  {
+    "id": "L6", "icon": "🌈",
+    "title_zh": "我来选一选", "title_en": "I Choose",
+    "goal_zh": "小星说两种想法时，选一个你同意的，再说出理由！", "goal_en": "When Xiaoxing shares two ideas, pick one and tell why!",
+    "rule": { "type": "compare_choose" }, "reward_stars": 3
+  }
+]
